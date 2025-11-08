@@ -300,9 +300,12 @@ h2 {
   }
    .hover-links{
    flex-direction: column;
+   display: hidden;
+   display: none;
   }
    .navbar{
     flex-direction: column;
+    display: hidden;
   } 
   .list{
     flex-direction: column; 
