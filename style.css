@@ -16,6 +16,7 @@ body {
 .logo {
   width: 70px;
   height: 70px;
+  margin: 10px;
 }
 .style {
   list-style: none;
@@ -31,6 +32,12 @@ body {
 }
 .hover-links {
   text-decoration: none;
+}
+.nav-toggle {
+    display: none;
+}
+.list {
+    display: flex;
 }
 /* ended nav seation  */
 
@@ -185,8 +192,6 @@ h2 {
   width: 150px;
   color: white;
 }
-
-
 /* ended order now */
 
 /* Team section */
@@ -312,11 +317,10 @@ h2 {
   } 
   .list{
     flex-direction: column; 
-   padding-left: 0px;
   }
   .customer-card{
     width: 300px;
-    height:350px ;
+    height:390px ;
   }
   .order-now img{
     width: 450px;
@@ -327,6 +331,36 @@ h2 {
   }
   .order-now{
     margin-top:200px;
+  }
+  .container button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+  }
+.nav-toggle {
+    display: block;
+  }
+  .list {
+     display: none;        
+    flex-direction: column;
+    width: 130px;           
+    background-color: #94a39b;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 400px;
+  }
+  .list li a {
+   color:blue; 
+   font-size: 16px; 
+   display: block;      
+}
+  .list.show {
+    display: flex; 
   }
 }
 /* ended media curies section for Mobilephone  */
@@ -339,13 +373,11 @@ footer {
   } 
   .link-column {
      margin-bottom: 20px; 
-     
   }
   .order-now{
     align-items: center;
    justify-content: center;
    gap: 190px;
-
   }
   .form-row{
     flex-direction: column;
@@ -358,7 +390,6 @@ footer {
   .gallery-img{
     width: 230px;
     height: 150px;
-
   }
   .menu-img{
     width: 155px;
@@ -383,14 +414,11 @@ footer {
   } 
    .hover-links{
    flex-direction: column; 
-
   }
   .customer-card{
     margin: 50px;
     margin-top: auto;
-
-  }
-  
-}
+  } 
+} 
 /*ended media curies section for Tabblet  */
 
