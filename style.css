@@ -352,7 +352,7 @@ h2 {
      display: none;        
     flex-direction: column;
     width: 130px;           
-    background-color: #94a39b;
+    background-color:rgb(255, 178, 35);
     position: absolute;
     top: 60px;
     right: 10px;
@@ -362,7 +362,7 @@ h2 {
     height: 400px;
   }
   .list li a {
-   color:blue; 
+   color:white; 
    font-size: 16px; 
    display: block;      
 }
