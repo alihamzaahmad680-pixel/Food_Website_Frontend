@@ -12,6 +12,8 @@ body {
 /* nav section */
 .navbar{
   width: 100%;
+  justify-content: space-evenly;
+
 } 
 .logo {
   width: 70px;

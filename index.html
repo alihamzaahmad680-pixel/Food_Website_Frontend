@@ -19,12 +19,13 @@
                 <img class="logo" src="./food-image/logo.png" alt="">
             </a>
             <ul class="style flex list">
-                <li><a href="#" class="hover-links">Home</a></li>
-                <li><a href="#" class="hover-links">Product</a></li>
-                <li><a href="#" class="hover-links">Menu</a></li>
-                <li><a href="#" class="hover-links">Gallary</a></li>
-                <li><a href="#" class="hover-links">Review</a></li>
-                <li><a href="#" class="hover-links">About</a></li>  
+                <li><a href="#Home" class="hover-links">Home</a></li>
+                <li><a href="#Product" class="hover-links">Product</a></li>
+                <li><a href="#Menu" class="hover-links">Menu</a></li>
+                <li><a href="#Gallery" class="hover-links">Gallary</a></li>
+                <li><a href="#Review" class="hover-links">Review</a></li>
+                <li><a href="#About" class="hover-links">About</a></li>
+                <li><a href="#Order" class="hover-links">Order</a></li>  
             </ul>
             <a href="#" class="nav-toggle hover-links">
                 <i class="fa-solid fa-bars"></i>
@@ -32,7 +33,6 @@
         </div>
     </nav>
 </div>
-
 <script>
 const navToggle = document.querySelector('.nav-toggle');
 const navList = document.querySelector('.list');
@@ -57,7 +57,7 @@ navToggle.addEventListener('click', (e) => {
     <!-- header started -->
 
     <div>
-        <header class="header">
+        <header class="header" id="Home">
             <div class="header-left ">
                 <h1>Get Fresh Food In a Eassy Ways</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem ducimus perferendis sapiente eum, iure adipisci quod quaerat odit eligendi molestias error, minus ipsa! Perspiciatis dolores cumque tempore iusto sed. sapiente eum, iure adipisci quod quaerat odit eligendi molestias error, minus ipsa! Perspiciatis dolores cumque tempore iusto sed.</p>
@@ -76,7 +76,7 @@ navToggle.addEventListener('click', (e) => {
              <img class="header-img" src="./food-image/Food-Plate.png" alt="">
             </div>
              <div class="header-left ">
-                <h1>About Us</h1>
+                <h1 id="About">About Us</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem ducimus perferendis sapiente eum, iure adipisci quod quaerat odit eligendi molestias error, minus ipsa! Perspiciatis dolores cumque tempore iusto sed. sapiente eum, iure adipisci quod quaerat odit eligendi molestias error, minus ipsa! Perspiciatis dolores cumque tempore iusto sed.</p>
 </div>
 </div> 
@@ -86,7 +86,7 @@ navToggle.addEventListener('click', (e) => {
     </div>
 
 <!-- menu start -->
-         <h2 class="menu-heading">Our Manu</h2>
+         <h2 class="menu-heading" id="Menu">Our Manu</h2>
         <div class="flex menu">
             <img class="menu-img" src="./food-image/buger.jpg" alt="">
             <img class="menu-img" src="./food-image/pasta.jpg" alt="">
@@ -106,7 +106,7 @@ navToggle.addEventListener('click', (e) => {
     
      <!-- gallery section  -->
 
-<h2>Gallery</h2>
+<h2 id="Gallery">Gallery</h2>
 <div class="flex gallery">
         <img class="gallery-img" src="./food-image/gallary_1.jpg" alt="">
         <img class="gallery-img" src="./food-image/gallary_2.jpg" alt="">
@@ -118,7 +118,7 @@ navToggle.addEventListener('click', (e) => {
    <!-- ended gallery section -->
     
    <!-- customer review section -->
-<h2>Customer Review</h2>
+<h2 id="Review">Customer Review</h2>
 <div class="flex customer-review">
     
     <div class="customer-card">
@@ -146,7 +146,7 @@ navToggle.addEventListener('click', (e) => {
 <!-- ended customer Review section -->
 <!--order now--> 
 
-<h2 class="h2">Order Now</h2>
+<h2 class="h2" id="Order">Order Now</h2>
  <header class="order-now">
         <div class="header-left ">
         <img class="img" src="./food-image/order_image.png" alt="">
@@ -206,7 +206,7 @@ navToggle.addEventListener('click', (e) => {
 
 <!-- footer section -->
 
-    <footer class="flex footer ">
+    <footer class="flex footer" id="Product"> 
         <div class="link-column flex">
             <h2 class="heading">Location</h2>
             <a href="#" class="hover-link">Pakistan</a>
