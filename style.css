@@ -58,6 +58,7 @@ header {
 }
 .header-left p {
   line-height: 20px;
+  text-align: justify;
 }
 .header-right img {
   width: 500px;
@@ -239,6 +240,7 @@ h2 {
 .name {
   color: red;
   text-align: center; 
+  font-size: 25px;
 }
 
 /* media curies section for Mobilephone  */
@@ -323,14 +325,17 @@ h2 {
     height:390px ;
   }
   .order-now img{
-    width: 450px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
   }
   .header-right{
     gap: 5px;
-  }
+    margin-top: none; 
+    margin-bottom: 30px;
+   
+   }
   .order-now{
-    margin-top:200px;
+    margin-top:50px;
   }
   .container button{
     display: flex;
