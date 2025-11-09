@@ -295,7 +295,7 @@ h2 {
   }
   .Team img{
     width: 300px;
-    height: 200px;
+    height: 250px;
   }
   .container{
     justify-content: center;
@@ -313,6 +313,20 @@ h2 {
   .list{
     flex-direction: column; 
    padding-left: 0px;
+  }
+  .customer-card{
+    width: 300px;
+    height:350px ;
+  }
+  .order-now img{
+    width: 450px;
+    height: 200px;
+  }
+  .header-right{
+    gap: 5px;
+  }
+  .order-now{
+    margin-top:200px;
   }
 }
 /* ended media curies section for Mobilephone  */
