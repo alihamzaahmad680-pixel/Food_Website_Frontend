@@ -265,7 +265,7 @@ h2 {
     height: 200;
   }
   .gallery img{
-    width: 270px;
+    width: 320px;
     height: 200px;
     flex-direction: column;
 
@@ -278,11 +278,11 @@ h2 {
     flex-direction: column;
   }
   .menu img{
-    width: 250px;
+    width: 300px;
     height: 200px;
   }
   .menu-img{
-    width: 250px;
+    width: 300px;
     height: 200px;
   }
   .header{
@@ -294,7 +294,7 @@ h2 {
     gap: 5px;
   }
   .Team img{
-    width: 250px;
+    width: 300px;
     height: 200px;
   }
   .container{
